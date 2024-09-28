@@ -130,7 +130,7 @@ function CreateCard() {
     <div className="pb-5">
       <PageHeaders
         title="Creat card"
-        description="craer a new card for your biz it's for free"
+        description="Creat a new card for your biz it's for free"
       />
       <div className="container my-5 ">
         <form onSubmit={CreatCard.handleSubmit} autoComplete="off" noValidate>
