@@ -153,10 +153,7 @@ function UpdataCards() {
 
   return (
     <div className="pb-5">
-      <PageHeaders
-        title="Updata card"
-        description="craer a new card for your biz it's for free"
-      />
+      <PageHeaders title="Edit card" description="Edit your card as you wish" />
       <div className="container my-5 pb-5">
         <form onSubmit={EditeCard.handleSubmit} noValidate autoComplete="off">
           {serverError && (
