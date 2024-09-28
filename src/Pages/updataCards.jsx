@@ -154,7 +154,7 @@ function UpdataCards() {
   return (
     <div className="pb-5">
       <PageHeaders
-        title="Creat card"
+        title="Updata card"
         description="craer a new card for your biz it's for free"
       />
       <div className="container my-5 pb-5">
